@@ -1,0 +1,25 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "A very basic to do list app with done, pending and deleted status messages.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Sachin Gothwal",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.2",
+    "body-parser": "^1.19.1",
+    "debug": "^4.3.3",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.1.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
